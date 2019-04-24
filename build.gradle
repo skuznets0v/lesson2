@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.18.6'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.9.8'
+    compile 'org.glassfish.jaxb:jaxb-runtime:2.4.0-b180830.0438'
+    testImplementation 'junit:junit:4.12'
+}
+
+mainClassName = 'com.firstlinesoftware.lesson2.App'
